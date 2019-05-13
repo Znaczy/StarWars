@@ -10,4 +10,5 @@ To do:
 4. AutoMapper
 5. Swagger
 6. Paging
-7. ...
+7. Refactoring
+8. ...
