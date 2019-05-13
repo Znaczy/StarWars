@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.Api", "StarWars.Api\StarWars.Api.csproj", "{8367994A-EDA4-4E1D-9C23-101175446AF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.DAL", "StarWars.DAL\StarWars.DAL.csproj", "{7A2AE616-BB5B-484E-98AD-7EDFDCED13BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8367994A-EDA4-4E1D-9C23-101175446AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8367994A-EDA4-4E1D-9C23-101175446AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8367994A-EDA4-4E1D-9C23-101175446AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8367994A-EDA4-4E1D-9C23-101175446AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2AE616-BB5B-484E-98AD-7EDFDCED13BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2AE616-BB5B-484E-98AD-7EDFDCED13BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2AE616-BB5B-484E-98AD-7EDFDCED13BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2AE616-BB5B-484E-98AD-7EDFDCED13BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1499E723-8A0E-4723-A0E9-C7C2CF42F1F9}
+	EndGlobalSection
+EndGlobal
