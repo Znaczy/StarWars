@@ -1,6 +1,6 @@
 # StarWars
 
-Simple StarWars async Api with DAL, writen in Asp.Net Core 2.2 with Entity Framework 2.4 for training purposes.
+Simple StarWars async Api with DAL, writen in Asp.Net Core 2.2 with Entity Framework Core 2.4 for training purposes.
 
 To do:
 
