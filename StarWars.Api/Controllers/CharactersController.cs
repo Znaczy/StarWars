@@ -19,16 +19,22 @@ namespace StarWars.Controllers
 
         // GET api/characters
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<CharacterModel>>> Get()
+        public async Task<ActionResult<List<CharacterModel>>> GetAllCharacters()
         {
             return await _characterServices.GetAllCharacters();
         }
 
         // GET api/characters/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<CharacterModel>> Get(int id)
+        public async Task<ActionResult<CharacterModel>> GetCharacter(int id)
         {
-            return await _characterServices.GetCharacterAsync(id);
+            var character = await _characterServices.GetCharacterAsync(id);
+            if(character == null)
+            {
+                return NotFound(id);
+            }
+
+            return Ok(character);
         }
 
         // POST api/characters
@@ -46,7 +52,7 @@ namespace StarWars.Controllers
 
         // PUT api/characters/5
         [HttpPut("{id}")]
-        public async Task<ActionResult<CharacterModel>> Put(int id, CharacterModel model)
+        public async Task<ActionResult<CharacterModel>> PutCharacter(int id, CharacterModel model)
         {
             if (ModelState.IsValid)
             {
